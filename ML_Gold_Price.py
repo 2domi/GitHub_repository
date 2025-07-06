@@ -13,7 +13,7 @@ def date_to_year_fraction(date):
 
 
 print("데이터 불러오는중...")
-dataset = pd.read_csv(r"C:\Python_VSCode_Cursor\XAU_1d_data.csv", sep=";")
+dataset = pd.read_csv(r"C:\Python_VSCode_Cursor\XAU_1d_data.csv")
 
 dataset["Date"] = pd.to_datetime(dataset["Date"])
 X = (dataset["Date"].apply(date_to_year_fraction).values.reshape(-1, 1))

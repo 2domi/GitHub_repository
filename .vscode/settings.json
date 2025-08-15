@@ -1,4 +1,5 @@
-{
+{    
+    
   "editor.tabCompletion": "off",
   "editor.inlineSuggest.enabled": false,
   "editor.quickSuggestions": {
@@ -8,4 +9,6 @@
   },
   "editor.suggestOnTriggerCharacters": true,
       "rainbow_csv.highlight_rows": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true
 }

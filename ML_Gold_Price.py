@@ -6,10 +6,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def date_to_year_fraction(date):
-    year = date.year
-    month = date.month
-    day = date.day
-    return year + (month - 1) / 12 + (day - 1) / 365
+        year = date.year
+        month = date.month
+        day = date.day
+        return year + (month - 1) / 12 + (day - 1) / 365
 
 
 print("데이터 불러오는중...")

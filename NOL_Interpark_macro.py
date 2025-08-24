@@ -8,7 +8,7 @@ while True:
         end_time = time.time() + 1.6
 
         while time.time() < end_time:
-                pyautogui.click(1212,956)
+                pyautogui.click(x=1214, y=798)
 
     if keyboard.is_pressed("2"):
         pyautogui.click(841,366)

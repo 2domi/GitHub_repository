@@ -21,12 +21,7 @@ apple_position = [random.randint(0,19)*24,random.randint(0,19)*24,24,24]
 Play = True
 clock = pygame.time.Clock()
 
-
-
-
-
-
-
+"""================================================================================================================"""
 
 while Play:
     clock.tick(8)
